@@ -14,7 +14,7 @@ public class Multiplication {
             while (i <= multiplyByAndToInclusive) {
                 int sum = i * multiplyByAndToInclusive;
                 i++;
-                return sum;
+                System.out.println(sum);
             }
         }
     }
