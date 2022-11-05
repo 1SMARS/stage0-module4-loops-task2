@@ -7,7 +7,7 @@ public class Multiplication {
 
         if (multiplyByAndToInclusive < 0) {
             while (multiplyByAndToInclusive <= i) {
-                return (i * multiplyByAndToInclusive) * -1;
+                System.out.println((i * multiplyByAndToInclusive) * -1);
                 i--;
             }
         } else {
