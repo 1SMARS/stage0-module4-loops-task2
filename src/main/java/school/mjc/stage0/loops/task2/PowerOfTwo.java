@@ -9,7 +9,7 @@ public class PowerOfTwo {
                 System.out.println(power);
             }
 
-            if (n % 2 != 0) {
+            if (power % 2 != 0) {
 
                 System.out.println("too much power");
             }
