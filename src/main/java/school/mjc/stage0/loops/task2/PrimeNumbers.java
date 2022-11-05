@@ -3,30 +3,20 @@ package school.mjc.stage0.loops.task2;
 public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
         
-         int i = 0;
-        int num;
-//        int printToInclusive = 30;
-
-        while (i <= printToInclusive) {
-
-            int counter = 0;
-            num = i;
-
-            while (num >= 1) {
-
-                if(i % num == 0) {
-                    counter = counter + 1;
+         int i = 2;
+        while (i<printToInclusive){
+            int j=2;
+            boolean b= true;
+            while (j<i){
+                if (i%j==0){
+                    b=false;
                 }
-
-                num--;
+                j++;
             }
-
-
-            if (counter == 2) {
+            if (b){
                 System.out.println(i);
             }
             i++;
-
         }
     }
 }
